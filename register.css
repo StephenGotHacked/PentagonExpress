@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh;
+  }
+
+header{
+    background-color: red;
+}
+
+.pent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 140pt; 
+    -webkit-text-fill-color: white;
+    font-size: larger;
+}
+
+.exp{
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 180pt;
+    -webkit-text-fill-color: black;
+    font-size: larger;
+}
+
+.space{
+    float:right;
+    margin-top: 6pt;
+    margin-right: 70pt;
+    color:black
+}
+.space:hover{
+    color: white;
+}

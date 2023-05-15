@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh;
+  }
+
+header{
+    background-color: red;
+    
+}
+
+.space{
+        float:right;
+        margin-top: 6pt;
+        margin-right: 70pt;
+        color:black
+}
+
+.space:hover{
+    color: white;
+}
+
+
+.pent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 140pt; 
+    -webkit-text-fill-color: white;
+    font-size: larger;
+}
+
+.exp{
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 180pt;
+    -webkit-text-fill-color: black;
+    font-size: larger;
+}
+
+.user {
+    padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+.pass {
+    padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+.login{
+    border:double 10px red; 
+    margin-top: 60pt; 
+    margin-left: 30%; 
+    margin-right: 26%; 
+    margin-bottom: 100pt;
+    padding-bottom: 30pt;   
+}
+
+.container{
+    padding-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.signin{
+
+    background-color: red; 
+    color: white;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    transition: transform 0.3s ease-out;
+}
+
+.signin:hover{
+    background-color: darkgray;
+    color: black;
+    transform: scale(1.05);
+}
+
+.dha{
+    font-size: small; 
+    color: grey;
+}
+
+.dha:hover{
+    color: black;
+}
+
+footer{
+    background-color: rgb(104, 103, 103);
+    margin-top: 0%;
+    padding-bottom: 20pt;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+.design{
+    color: black;
+}
+
+a.des {
+    color:black;
+}
+
+.des:hover{
+    color: white;
+}
+
+.butshov:hover{
+    color:darkgrey;
+}
